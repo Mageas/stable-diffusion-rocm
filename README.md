@@ -6,8 +6,20 @@ The original tutorial and files were created by [catzy007](https://github.com/ca
 
 ### Install dependencies
 
+Add the arch4edu repo in `/etc/pacman.conf`.
+```conf
+[arch4edu]
+Server = https://mirror.lesviallon.fr/arch4edu/$arch
 ```
-paru -S rocm-opencl-runtime rocminfo
+
+Update the system.
+```
+pacman -Syu
+```
+
+Install the dependencies.
+```
+pacman -S rocm-opencl-runtime rocminfo
 ```
 
 ### Setup
