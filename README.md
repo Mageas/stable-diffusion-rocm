@@ -6,6 +6,15 @@ The original tutorial and files were created by [catzy007](https://github.com/ca
 
 ### Install dependencies
 
+#### aur
+
+Install the package.
+```
+paru -S opencl-amd
+```
+
+#### community-testing
+
 Enable the community-testing repo in `/etc/pacman.conf`.
 ```conf
 [community-testing]
